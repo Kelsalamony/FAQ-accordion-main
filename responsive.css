@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .child {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .child {
+        width: 70%;
+
+        padding: 10px;
+    }
+}

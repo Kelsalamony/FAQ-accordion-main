@@ -1,0 +1,72 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+}
+
+.peranet {
+    width: 100%;
+    height: 35vh;
+    background-image: url(images/background-pattern-desktop.svg);
+    position: relative;
+}
+
+.child {
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    height: 510px;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid;
+
+}
+
+.content {
+    padding: 20px;
+    background-color: #FFFFFF;
+    font-family:  "Work Sans", sans-serif;
+
+}
+
+.faq-item {
+    border-bottom: 1px solid #DDD;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+
+}
+.faq-header{
+    width:140px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-header h1{
+    color: hsl(292, 42%, 14%);
+}
+.question {
+
+   margin-bottom: 15px;
+
+   font-weight: 700;
+
+}
+
+.answer {
+    margin-bottom: 25px;
+
+    font-size: 16px;
+}
+
+.icon {
+    font-size: 18px;
+    cursor: pointer;
+}
